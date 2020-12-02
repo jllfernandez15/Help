@@ -1,0 +1,49 @@
+<div class="card bg-dark text-white">
+    <div class="card-header">{{ titulo }}</div>
+    <div class="card-body">
+  
+      <!--#contactForm="ngForm"-->
+      <form (ngSubmit)="onSubmit(contactForm);" #contactForm="ngForm">
+        <div>
+          <input matInput placeholder="Code" type="text" maxlength="80" [(ngModel)]="vehiculo.code" name="code"
+            required>
+        </div>
+        <div>
+          <input matInput placeholder="Nombre" type="text" [(ngModel)]="vehiculo.nombre" name="nombre" required>
+        </div>
+        <div>
+          <button [disabled]="!contactForm.form.valid">Enviar</button>
+          </div>
+          
+          <div>
+            <button class="btn btn-primary" type="button" role="button" (click)='pruebaVehiculos()'>All vehiculos</button>
+          </div>
+          <div>
+            <button class="btn btn-primary" type="button" role="button" (click)='pruebaVehiculo()'>vehiculo Id 3</button>
+          </div>
+          <div>
+            <button class="btn btn-primary" type="button" role="button" (click)='pruebaNewVehiculo()'>New Vehiculo</button>
+          </div>
+          <div>
+            <button class="btn btn-primary" type="button" role="button" (click)='pruebaPagesVehiculos()'>Recurso restringido Paginacion</button>
+          </div>
+          <div>
+            <button class="btn btn-primary" type="button" role="button" (click)='pruebaUpdateVehiculo()'>Update Vehiculo</button>
+          </div>
+          <div>
+            <button class="btn btn-primary" type="button" role="button" (click)='pruebaDeleteVehiculo()'>Delete  Vehiculo</button>
+          </div>
+          <div>
+            <button class="btn btn-primary" type="button" role="button" (click)='vehiculoPorCode()'>Vehiculo por Code</button>
+          </div>
+          <div>
+            <button class="btn btn-primary" type="button" role="button" (click)='roles()'>Roles</button>
+          </div>
+          <div>
+            <button class="btn btn-primary" type="button" role="button" (click)='byForm()'>Vehiculos por filtrado</button>
+          </div>
+  
+      </form>
+  
+    </div>
+  </div>
