@@ -1,0 +1,36 @@
+//Instalacion Global
+npm install -g angular/cli
+// Proyecto
+ng new trajano
+
+// Install packages
+ng add @angular/material @angular/cdk @angular/animations
+ng add @angular/cli
+--ng add @angular/cli@latest
+--ng add sweetalert2@latest
+npm install --save sweetalert2
+ng add rxjs
+
+--npm add -g @angular/cli@latest
+--npm install -g @angular/cli
+
+--npm install --save @angular/material @angular/cdk @angular/animations
+--npm install -g  rxjs
+npm install --save sweetalert2
+--ng add rxjs
+npm install --save bootstrap
+
+
+//Start
+npm start
+
+//Compile
+ng build
+ng serve
+
+ng g c ListadoVehiculos
+ng g s Vehiculos
+
+ng g service Vehiculos
+
+npm install @angular/forms

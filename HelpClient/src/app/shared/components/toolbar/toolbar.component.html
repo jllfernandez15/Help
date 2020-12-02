@@ -1,0 +1,13 @@
+<nav class="navbar navbar-ct-blue navbar-fixed-top navbar-transparent" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand navbar-brand-logo" *ngFor="let enlace of enlaces" href="{{ enlace.link }}">
+        <div class="logo">
+          <img src="{{ enlace.logo }}" />
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- /.container -->
+</nav>
+<!--  end navbar -->

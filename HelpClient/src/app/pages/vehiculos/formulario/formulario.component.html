@@ -1,0 +1,18 @@
+<div class="card bg-dark text-white">
+  <div class="card-header">{{ titulo }}</div>
+  <div class="card-body">
+
+    <!--#contactForm="ngForm"-->
+    <form (ngSubmit)="onSubmit(contactForm);" #contactForm="ngForm">
+      <div>
+        <input matInput placeholder="Code" type="text" maxlength="80" [(ngModel)]="vehiculo.code" name="code"
+          required>
+      </div>
+      <div>
+        <input matInput placeholder="Nombre" type="text" [(ngModel)]="vehiculo.nombre" name="nombre" required>
+      </div>
+
+    </form>
+
+  </div>
+</div>

@@ -1,0 +1,79 @@
+/*
+ * Application global variables.
+ */
+
+// Set Font Awesome font path
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+$icons-color32-path: "../assets/icons/color/32x";
+$icons-bicolor32-path: "../assets/icons/bicolor/32x";
+// ---------------------------------------------------------------------------
+// Bootstrap variables
+//
+// Override Bootstrap variables here to suite your theme.
+// Copy variables you want to customize from node_modules/bootstrap/scss/_variables.scss
+//
+// Color system
+//
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+$blue: #001042;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #dc3545;
+$orange: #fd7e14;
+$yellow: #f9f0c5;
+$green: #28a745;
+$teal: #20c997;
+$cyan: #17a2b8;
+$gray: #e7e7e7;
+$softred: #f0a2aa;
+$theme-colors: (
+  primary: $blue,
+  secondary: $gray-600,
+  success: $green,
+  info: $cyan,
+  warning: $orange,
+  danger: $red,
+  light: $gray-100,
+  dark: $gray-800,
+  background: $yellow,
+  nav: $gray,
+  validation: $softred
+);
+// NavBar
+$navbar-dark-color: rgba($gray, 1) !default;
+$navbar-dark-hover-color: rgba($gray, 1) !default;
+$navbar-dark-active-color: rgba($gray, 0.9) !default;
+$navbar-dark-disabled-color: rgba($gray, 0.5) !default;
+$navbar-dark-toggler-border-color: rgba($gray, 0.1) !default;
+$navbar-light-color: rgba($blue, 1) !default;
+$navbar-light-hover-color: rgba($blue, 1) !default;
+$navbar-light-active-color: rgba($blue, 0.9) !default;
+$navbar-light-disabled-color: rgba($blue, 0.5) !default;
+$navbar-light-toggler-border-color: rgba($blue, 0.1) !default;
+$dropdown-header-color: none !default;
+// Breadcrumbs
+$breadcrumb-bg: $blue !default;
+$breadcrumb-color: $gray-600 !default;
+$breadcrumb-divider: quote(">>") !default;
+$breadcrumb-divider-color: $yellow !default;
+$breadcrumb-padding-y: 0.75rem !default;
+$breadcrumb-padding-x: 1rem !default;
+$breadcrumb-item-padding: 0.5rem !default;
+$breadcrumb-margin-bottom: 1rem !default;
+$breadcrumb-active-color: $gray !default;
+$breadcrumb-border-radius: none !default;
+// Use Bootstrap defaults for other variables, imported here so we can access all app variables in one place when used
+// in components.
+@import "~bootstrap/scss/_functions";
+@import "~bootstrap/scss/_variables";

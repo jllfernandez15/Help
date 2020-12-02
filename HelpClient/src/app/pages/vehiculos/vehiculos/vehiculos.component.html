@@ -1,0 +1,25 @@
+<div class="container" width="400" height="400" scrolling="auto">
+    <div class="container">
+      <div class="form-group row">
+        <div class="row">
+          <!--app-toolbar [enlaces]="links" class="hotlink-subtoolbar" (clickedOption)="onClickOption($event)"-->
+            <app-toolbar [enlaces]="links" class="hotlink-subtoolbar">
+            </app-toolbar>
+        </div>
+      </div>
+  
+      <div class="col-sm-7">
+        <app-datatable [columnas]="columnas" [hiddensButtons]="hiddensButtons" [dataSource]="dataSource" [titulo]="titulo"
+          [tableFoot]="tableFoot" (clickedRow)="rowClicked($event)" (editedRow)="rowEdited($event)"
+          (deletedRow)="rowDeleted($event)">
+        </app-datatable>
+      </div>
+  
+  
+      <div class="col-sm-7">
+        <app-tree>
+        </app-tree>
+      </div>
+  
+    </div>
+  </div>

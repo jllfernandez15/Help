@@ -1,0 +1,38 @@
+
+var ftGUID_4230860="45992F83AFCE7E";
+var ftConfID_4230860="0";
+var ftParams_4230860="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=code.tutsplus.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fcode.tutsplus.com%2Fes%2Ftutorials%2Fcreating-single-page-applications-with-wordpress-and-angularjs--cms-25095&cachebuster=54984.23984785039";
+var ftKeyword_4230860="";
+var ftCustom_4230860="";
+var ftSection_4230860="";
+var ftSegment_4230860="";
+var ftSegmentList_4230860=[];
+var ftRuleMatch_4230860="0";
+var ftTimestamp_4230860="1601281330";
+var ftGeoC2_4230860="es";
+var ftGeoState_4230860="ma";
+var ftGeoCity_4230860="malaga";
+var ftISP_4230860="telefonica de espana";
+var ftSpeed_4230860="broadband";
+var ftDMA_4230860="-1";
+var ftLong_4230860="-4.42";
+var ftLat_4230860="36.72";
+var ftPostal_4230860="29001";
+var ftTimeZone_4230860="200";
+var ftMobileCarrier_4230860="";
+var ftImp4230860 = {};
+ftImp4230860.privacy = "x";
+ftImp4230860.guidAge = "55";
+ftImp4230860.impID = "2649F2F7-A3D3-003E-C339-507427DE820E";
+ftImp4230860.duid = "FT:45992F83AFCE7E";
+
+ftImp4230860.ft_tpplid = "";
+ftImp4230860.ft_c = {};
+ftImp4230860.gdpr = "";
+ftImp4230860.gdpr_consent = "";
+ftImp4230860.gdpr_pd = "";
+ftImp4230860.oob_consent = "";
+ftImp4230860.gdprStoredConsent = "";
+ftImp4230860.us_privacy = "";
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/423/4230860/2787234/js/j-4230860-2787234.js" id="ftscript_m4230860" name="ftscript_m4230860"></scr'+'ipt>');

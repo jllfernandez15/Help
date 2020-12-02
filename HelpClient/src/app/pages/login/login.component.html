@@ -1,0 +1,21 @@
+<div class="card bg-dark text-white">
+    <div class="card-header">{{ titulo }}</div>
+    <div class="card-body">
+  
+      <!--#contactForm="ngForm"-->
+      <form (ngSubmit)="onSubmit(contactForm);" #contactForm="ngForm">
+        <div>
+          <input matInput placeholder="Nombre" type="text" maxlength="80" [(ngModel)]="usuario.login" name="login"
+            required>
+        </div>
+        <div>
+          <input matInput placeholder="Pass" type="text" [(ngModel)]="usuario.pass" name="pass" required>
+        </div>
+       
+          <div>
+            <button class="btn btn-primary" type="button" role="button" (click)='autenticar()'>Autenticar</button>
+          </div>
+      </form>
+  
+    </div>
+  </div>
